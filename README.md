@@ -1,6 +1,10 @@
 # sveltekit-ssr
 
-> **Role in the zoo:** project `sveltekit-ssr` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s1 at https://sveltekit-ssr.s1.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Guide for this stack](https://deploywithox.com/docs/guides/sveltekit)
+
+**Live demo:** https://sveltekit-ssr.s1.zoo.sorv.dev
+
+> **Role in the zoo:** project `sveltekit-ssr` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s1 at https://sveltekit-ssr.s1.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 SvelteKit with `@sveltejs/adapter-node`, on s1. The home page's server `load`
 fans out, in parallel and server-side, to three projects on two other servers:
